@@ -1,8 +1,8 @@
 import {useState,useEffect,useContext} from 'react'
-import ThemeContext from '../context/ThemeContext'
+import {ThemeContext} from '../context/ThemeContext'
 
 function Date(){
-  const {isBlack,setIsBlack} = useContext(ThemeContext)
+  const {isBlack} = useContext(ThemeContext)
   const [date,setDate] = useState("")
   const [curDate,setCurDate] = useState({
     "year" : 0,

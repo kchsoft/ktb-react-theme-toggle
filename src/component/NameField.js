@@ -1,6 +1,6 @@
 import {useState,useRef,useContext}from 'react'
 import NameDisplay from './NameDisplay'
-import ThemeContext from '../context/ThemeContext'
+import {ThemeContext} from '../context/ThemeContext'
 
 function NameField(){
   // const data = useContext(ThemeContext) // object -> { isBlack, setIsBlack }

@@ -1,10 +1,8 @@
 import { useContext } from "react"
-import ThemeContext from "../context/ThemeContext"
+import {ThemeContext} from "../context/ThemeContext"
 
 const ThemeBtn = () =>{
-
   const {isBlack, setIsBlack} = useContext(ThemeContext)
-
   const changeTheme = () => {
     setIsBlack(!isBlack)
   }
