@@ -4,7 +4,7 @@ import ThemeContext from '../context/ThemeContext'
 
 function NameField(){
   // const data = useContext(ThemeContext) // object -> { isBlack, setIsBlack }
-  const {isBlack,setIsBlack} = useContext(ThemeContext) 
+  const {isBlack} = useContext(ThemeContext) 
   const [name,setName] = useState("Guest")
   const nameRef = useRef(null) // or use onChange
 
